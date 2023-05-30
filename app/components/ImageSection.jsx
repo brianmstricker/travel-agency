@@ -2,29 +2,50 @@ import Image from "next/image";
 
 const ImageSection = () => {
   return (
-    <section className="md:mt-[-12rem] mt-9 absolute w-screen">
-      <div className="w-fit mx-auto flex gap-8">
-        <Image
-          src="/resort.jpg"
-          width={300}
-          height={300}
-          alt="location"
-          className="border border-white"
-        />
-        <Image
-          src="/lake.jpg"
-          width={300}
-          height={300}
-          alt="location"
-          className="border border-white"
-        />
-        <Image
-          src="/mountain.jpg"
-          width={300}
-          height={300}
-          alt="location"
-          className="border border-white"
-        />
+    <section className="lg:mt-[-12rem] mt-9 absolute w-screen">
+      <div className="w-fit mx-auto flex flex-col lg:flex-row gap-8 lg:gap-4">
+        <div className="relative">
+          <Image
+            src="/resort.jpg"
+            width={320}
+            height={320}
+            alt="location"
+            className="border-2 border-neutral-200 rounded h-full"
+          />
+          <div className="absolute top-0 left-0 right-0 bottom-0 opacity-0 hover:opacity-100 hover:bg-black/80 transition-all">
+            <p className="absolute text-4xl text-white top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
+              Resorts
+            </p>
+          </div>
+        </div>
+        <div className="relative">
+          <Image
+            src="/lake.jpg"
+            width={320}
+            height={320}
+            alt="location"
+            className="border-2 border-neutral-200 rounded h-full"
+          />
+          <div className="absolute top-0 left-0 right-0 bottom-0 opacity-0 hover:opacity-100 hover:bg-black/80 transition-all">
+            <p className="absolute text-4xl text-white top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
+              Camping
+            </p>
+          </div>
+        </div>
+        <div className="relative">
+          <Image
+            src="/mountain.jpg"
+            width={320}
+            height={320}
+            alt="location"
+            className="border-2 border-neutral-200 rounded h-full"
+          />
+          <div className="absolute top-0 left-0 right-0 bottom-0 opacity-0 hover:opacity-100 hover:bg-black/80 transition-all">
+            <p className="absolute text-4xl text-white top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
+              Cabins
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

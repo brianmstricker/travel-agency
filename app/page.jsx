@@ -6,7 +6,7 @@ import ImageSection from "./components/ImageSection";
 export default function Home() {
   return (
     <div className="">
-      <div className="h-[700px] relative">
+      <div className="h-[735px] relative">
         <Image
           src={beach}
           alt="An image of a beautiful beach landscape"

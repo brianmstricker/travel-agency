@@ -1,6 +1,6 @@
 const HomeSearch = () => {
   return (
-    <div className="absolute py-4 bottom-0 mb-[-35px] md:mb-0 md:bottom md:top-20 left-1/2 translate-x-[-50%] bg-white w-screen lg:w-[1000px] md:h-[150px] rounded-lg shadow-2xl md:py-2">
+    <div className="absolute py-4 bottom-8 mb-[-35px] md:mb-0 md:bottom md:top-20 left-1/2 translate-x-[-50%] bg-white w-screen lg:w-[1000px] md:h-[150px] rounded-lg shadow-2xl md:py-2 md:drop-shadow-2xl">
       <div className="text-center">
         <h2 className="text-xl">
           Search for an <span className="font-bold">expert travel agent</span>{" "}
