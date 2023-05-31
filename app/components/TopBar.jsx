@@ -10,7 +10,7 @@ const TopBar = () => {
       </div>
       <div className="flex items-center gap-2 justify-between">
         <BsFillTelephoneFill size={20} className="text-dark" />
-        <p className="text-lg">111-222-1234</p>
+        <p className="text-lg hidden sm:block">111-222-1234</p>
         <div className="w-[2px] h-6 bg-black"></div>
         <button className="bg-gradient-to-r from-light to-dark hover:from-red-400 hover:to-red-600 font-bold text-gray-100">
           CONTACT US

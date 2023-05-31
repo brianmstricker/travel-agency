@@ -2,6 +2,7 @@ import Image from "next/image";
 import beach from "../public/beach.jpg";
 import HomeSearch from "./components/HomeSearch";
 import ImageSection from "./components/ImageSection";
+import FavoriteLocations from "./components/FavoriteLocations";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         />
         <HomeSearch />
         <ImageSection />
+        <FavoriteLocations />
       </div>
     </div>
   );
