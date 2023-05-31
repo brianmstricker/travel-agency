@@ -9,19 +9,19 @@ const HomeSearch = () => {
         <section className="flex flex-col gap-4 md:gap-0 md:flex-row justify-between mt-10 px-16 items-center">
           <div>
             <h3 className="font-bold">LOCATION</h3>
-            <div className="border-light border-2 cursor-pointer rounded-full px-2 py-[2px] mt-1">
+            <div className="border-light border-2 cursor-pointer rounded-full px-2 py-[2px] mt-1 hover:bg-light hover:text-white transition-all">
               Select a Location
             </div>
           </div>
           <div>
             <h3 className="font-bold">ACTIVITY</h3>
-            <div className="border-light border-2 cursor-pointer rounded-full px-2 py-[2px] mt-1">
+            <div className="border-light border-2 cursor-pointer rounded-full px-2 py-[2px] mt-1 hover:bg-light hover:text-white transition-all">
               Choose an Activity
             </div>
           </div>
           <div>
             <h3 className="font-bold">PRICE</h3>
-            <div className="border-light border-2 cursor-pointer rounded-full px-2 py-[2px] mt-1">
+            <div className="border-light border-2 cursor-pointer rounded-full px-2 py-[2px] mt-1 hover:bg-light hover:text-white transition-all">
               Filter by Price
             </div>
           </div>

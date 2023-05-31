@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const FavoriteLocations = () => {
   return (
-    <section className="lg:mt-40 mt-[85rem] px-4 md:px-16 pb-8">
+    <section className="mt-[50rem] lg:mt-40 md:mt-[85rem] px-4 md:px-16 pb-8">
       <h1 className="text-center text-5xl text-dark">
         Travelers&apos; Favorite Locations
       </h1>

@@ -10,7 +10,7 @@ const ImageSection = () => {
             width={600}
             height={600}
             alt="location"
-            className="border-2 border-neutral-200 rounded lg:w-[400px] lg:h-[300px] w-[600px] h-[400px]"
+            className="border-2 border-neutral-200 rounded lg:w-[400px] lg:h-[300px] sm:w-[600px] sm:h-[400px] w-[300px] h-[200px]"
           />
           <div className="absolute top-0 left-0 right-0 bottom-0 opacity-0 hover:opacity-100 hover:bg-black/80 transition-all">
             <p className="absolute text-4xl text-white top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] font-bold">
@@ -24,7 +24,7 @@ const ImageSection = () => {
             width={600}
             height={600}
             alt="location"
-            className="border-2 border-neutral-200 rounded lg:w-[400px] lg:h-[300px] w-[600px] h-[400px]"
+            className="border-2 border-neutral-200 rounded lg:w-[400px] lg:h-[300px] sm:w-[600px] sm:h-[400px] w-[300px] h-[200px]"
           />
           <div className="absolute top-0 left-0 right-0 bottom-0 opacity-0 hover:opacity-100 hover:bg-black/80 transition-all">
             <p className="absolute text-4xl text-white top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] font-bold">
@@ -38,7 +38,7 @@ const ImageSection = () => {
             width={600}
             height={600}
             alt="location"
-            className="border-2 border-neutral-200 rounded lg:w-[400px] lg:h-[300px] w-[600px] h-[400px]"
+            className="border-2 border-neutral-200 rounded lg:w-[400px] lg:h-[300px] sm:w-[600px] sm:h-[400px] w-[300px] h-[200px]"
           />
           <div className="absolute top-0 left-0 right-0 bottom-0 opacity-0 hover:opacity-100 hover:bg-black/80 transition-all">
             <p className="absolute text-4xl text-white top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] font-bold">

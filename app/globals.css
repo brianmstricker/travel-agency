@@ -11,7 +11,4 @@
     @apply font-[Poppins];
     @apply overflow-x-hidden;
   }
-  button {
-    @apply px-4 py-2;
-  }
 }
